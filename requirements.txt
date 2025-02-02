@@ -1,6 +1,6 @@
 flask
 numpy
-scikit-learn
+scikit-learn==1.5.0
 pickle5
 gunicorn
 pandas
