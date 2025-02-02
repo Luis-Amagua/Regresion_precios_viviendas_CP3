@@ -1,0 +1,5 @@
+# Predicción de precios de casas
+
+El presente proyecto se enfoca en la predicción de precios de casas, utilizando un conjunto de datos generado de manera aleatoria. Los datos fueron creados teniendo en cuenta los metros cuadrados habitables de las propiedades, lo cual establece una relación inicial entre el área y el precio. Este modelo sirve como un primer paso para comprender cómo se puede predecir el precio de una propiedad basándose en su tamaño, pero se espera expandir y mejorar este enfoque al incorporar más variables que puedan influir en el valor de mercado de una casa.
+
+Como parte de la extensión del proyecto, se incorporará un conjunto de datos real disponible en Kaggle: USA Real Estate Dataset. Este dataset proporciona información adicional que permitirá un análisis más robusto de las propiedades, incluyendo características como ubicación, número de habitaciones, edad de la propiedad, características del vecindario, entre otras. Al incluir estos factores, se podrá realizar un análisis más profundo sobre cómo las diferentes variables impactan en el comportamiento de los precios de las viviendas.
