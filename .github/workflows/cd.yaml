@@ -24,13 +24,13 @@ jobs:
 
       - name: Construir y subir imagen Docker
         run: |
-          docker build -t gcr.io/${{ secrets.GCP_PROJECT_ID }}/ci-cd-ia:latest .
-          docker push gcr.io/${{ secrets.GCP_PROJECT_ID }}/ci-cd-ia:latest
+          docker build -t gcr.io/cp3-maestria-ai/ci-cd-ia:latest .
+          docker push gcr.io/cp3-maestria-ai/ci-cd-ia:latest
 
       - name: Desplegar en Cloud Run
         run: |
           gcloud run deploy ci-cd-ia \
-            --image gcr.io/${{ secrets.GCP_PROJECT_ID }}/ci-cd-ia:latest \
+            --image gcr.io/cp3-maestria-ai/ci-cd-ia:latest \
             --platform managed \
             --region us-central1 \
             --allow-unauthenticated
